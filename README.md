@@ -1,16 +1,23 @@
-# task4_login_page
 
-A new Flutter project.
+## LOGIN PAGE USING SHARED PREFERENCE
 
-## Getting Started
+this is a simple login page made using shared preference to store the information weather the user is already logged in or not . If user is already logged in,it will take user to homepage.
+## ABOUT
 
-This project is a starting point for a Flutter application.
+The 2 main important things i have used in the code is form validation and shared preference.I have also set a array condaining 3 username and passwords, so that the index of username should match the index of password inorder to get user logged in. 
 
-A few resources to get you started if this is your first Flutter project:
+## PREVIEW
+![IMG-20231022-WA0021](https://github.com/Shaham-Ahammed/login-page-shared-preference/assets/144320561/27d19bec-7b77-4904-95d9-f1864a1b8d3f)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![IMG-20231022-WA0024](https://github.com/Shaham-Ahammed/login-page-shared-preference/assets/144320561/3c963a0f-955c-4576-af2e-56f3f0042914)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Use 🤔
+
+- Clone this repository:
+$ git clone https://github.com/Shaham-Ahammed/login-page-shared-preference.git 
+
+- For install dependencies:
+$ flutter pub get
+
+- Run the app: 
+$ flutter run
